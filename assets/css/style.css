@@ -64,6 +64,10 @@ nav {
   width: 60px;
 }
 
+.navlinks a{
+    margin-right: 10px;
+}
+
 a {
   text-decoration: none;
 }

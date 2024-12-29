@@ -1,4 +1,3 @@
-// script.js
 const fs = require('fs');
 const path = require('path');
 
@@ -35,5 +34,15 @@ gamesData.games.forEach(game => {
         // Write the new file
         fs.writeFileSync(newFilePath, newContent);
         console.log(`Created: ${newFileName}`);
+    }
+});
+
+const dir = path.join(__dirname, 'node_modules');
+
+fs.rm(dir, { recursive: true, force: true }, (err) => {
+    if (err) {
+        console.error(`Error deleting node_modules: ${err.message}`);
+    } else {
+        console.log('node_modules deleted successfully.');
     }
 });
