@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Keywords" content="1v1.lol, 1v1 lol"/>
+    <title>Developers Fun</title>
+
+    <link rel="preload" href="/assets/css/style.css" as="style">
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/Games.css" />
+
+
+  </head>
+  <body>
+    <nav>
+        <a href="/">
+            <img src="/logo.png" alt="logo" class="navlogo">
+        </a>
+        
+        <div class="navlinks">
+            <a href="/">Home</a>
+        </div>
+    </nav>
+    <div class="game">
+      <div id="game-area">
+        <iframe id="iframe" src="../Game/amongus"></iframe>
+        <div id="mobile-back-button" draggable="true" onclick="openFullscreen()">
+          <i class="bi bi-x-circle-fill"></i>
+        </div>
+      </div>
+      <div class="Tag">
+        <div class="tagcontainer">
+            <img src="/assets/images/AmoungUs.png" class="TagImg">
+            <div class="TagTextContainer">
+                <d2 class="TagGameName">Among Us</d2>
+                <d2 class="TagGameCreator">InnerSloth</d2>
+            </div>
+        </div>
+        <a href="#" onclick="openFullscreen()" id="no-animation">
+          <img src="/assets/Images/fullscreen.svg" class="FullscreenImg">
+        </a>
+    </div>
+
+    <footer>
+        <img src="/logo.png" alt="logo">
+        <h3>ColdNova</h3>
+    </footer>
+
+    <script defer async src="/assets/js/script.js"></script>
+  </body>
+</html>
