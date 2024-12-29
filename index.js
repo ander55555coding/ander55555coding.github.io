@@ -4,6 +4,10 @@ const path = require('path');
 // Load Games.json
 const gamesData = JSON.parse(fs.readFileSync('Games.json', 'utf8'));
 
+// Load existing sitemap
+const sitemapPath = path.join(__dirname, 'sitemap.xml');
+let sitemap = fs.existsSync(sitemapPath) ? fs.readFileSync(sitemapPath, 'utf8') : '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
+
 // Template file path
 const templateFilePath = path.join(__dirname, 'indextemplate.html');
 
@@ -34,9 +38,21 @@ gamesData.games.forEach(game => {
         // Write the new file
         fs.writeFileSync(newFilePath, newContent);
         console.log(`Created: ${newFileName}`);
+
+        // Add to sitemap if not already present
+        if (!sitemap.includes(game.name)) { // Check if game is already in sitemap
+            sitemap += `  <url><loc>https://coldnova.xyz/G/${newFileName}</loc></url>\n`; // Add new entry
+        }
     }
 });
 
+// Close the urlset tag
+sitemap += '</urlset>';
+
+// Write updated sitemap back to file
+fs.writeFileSync(sitemapPath, sitemap);
+
+// Clean up node_modules
 const dir = path.join(__dirname, 'node_modules');
 
 fs.rm(dir, { recursive: true, force: true }, (err) => {
