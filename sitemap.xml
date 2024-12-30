@@ -1,131 +1,175 @@
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
     <url>
-        <loc>https://coldnova.xyz/g/1v1.lol.html</loc>
+        <loc>https://coldnova.xyz/G/1v1.lol.html</loc>
     </url>
+
     <url>
-        <loc>https://coldnova.xyz/g/2minutefootball.html</loc>
+        <loc>https://coldnova.xyz/G/2minutefootball.html</loc>
     </url>
+
     <url>
-        <loc>https://coldnova.xyz/g/amongus.html</loc>
+        <loc>https://coldnova.xyz/G/AmongUs.html</loc>
     </url>
+
     <url>
-        <loc>https://coldnova.xyz/g/basketballbros.html</loc>
+        <loc>https://coldnova.xyz/G/BasketballBros.html</loc>
     </url>
+
     <url>
-        <loc>https://coldnova.xyz/g/blumgislimes.html</loc>
+        <loc>https://coldnova.xyz/G/BlumgiSlimes.html</loc>
     </url>
+
     <url>
-        <loc>https://coldnova.xyz/g/clickerheroes.html</loc>
+        <loc>https://coldnova.xyz/G/ClickerHeroes.html</loc>
     </url>
+
     <url>
-        <loc>https://coldnova.xyz/g/colorswitch.html</loc>
+        <loc>https://coldnova.xyz/G/Colorswitch.html</loc>
     </url>
+
     <url>
-        <loc>https://coldnova.xyz/g/cookieclickers.html</loc>
+        <loc>https://coldnova.xyz/G/CookieClickers.html</loc>
     </url>
+
     <url>
-        <loc>https://coldnova.xyz/g/dadish.html</loc>
+        <loc>https://coldnova.xyz/G/Dadish.html</loc>
     </url>
+
     <url>
-        <loc>https://coldnova.xyz/g/dadish3.html</loc>
+        <loc>https://coldnova.xyz/G/Dadish3.html</loc>
     </url>
+
     <url>
-        <loc>https://coldnova.xyz/g/descent.html</loc>
+        <loc>https://coldnova.xyz/G/Descent.html</loc>
     </url>
+
     <url>
-        <loc>https://coldnova.xyz/g/doodlebaseball.html</loc>
+        <loc>https://coldnova.xyz/G/DoodleBaseball.html</loc>
     </url>
+
     <url>
-        <loc>https://coldnova.xyz/g/doodlejump.html</loc>
+        <loc>https://coldnova.xyz/G/DoodleJump.html</loc>
     </url>
+
     <url>
-        <loc>https://coldnova.xyz/g/driftboss.html</loc>
+        <loc>https://coldnova.xyz/G/Driftboss.html</loc>
     </url>
+
     <url>
-        <loc>https://coldnova.xyz/g/drivemad.html</loc>
+        <loc>https://coldnova.xyz/G/Drivemad.html</loc>
     </url>
+
     <url>
-        <loc>https://coldnova.xyz/g/fruitninja.html</loc>
+        <loc>https://coldnova.xyz/G/FruitNinja.html</loc>
     </url>
+
     <url>
-        <loc>https://coldnova.xyz/g/geometrydash.html</loc>
+        <loc>https://coldnova.xyz/G/GeometryDash.html</loc>
     </url>
+
     <url>
-        <loc>https://coldnova.xyz/g/getawayshootout.html</loc>
+        <loc>https://coldnova.xyz/G/GetawayShootout.html</loc>
     </url>
+
     <url>
-        <loc>https://coldnova.xyz/g/gobble.html</loc>
+        <loc>https://coldnova.xyz/G/Gobble.html</loc>
     </url>
+
     <url>
-        <loc>https://coldnova.xyz/g/hextris.html</loc>
+        <loc>https://coldnova.xyz/G/Hextris.html</loc>
     </url>
+
     <url>
-        <loc>https://coldnova.xyz/g/hoverracerdrive.html</loc>
+        <loc>https://coldnova.xyz/G/HoverRacerDrive.html</loc>
     </url>
+
     <url>
-        <loc>https://coldnova.xyz/g/jetpackjoyride.html</loc>
+        <loc>https://coldnova.xyz/G/JetpackJoyride.html</loc>
     </url>
+
     <url>
-        <loc>https://coldnova.xyz/g/l2f.html</loc>
+        <loc>https://coldnova.xyz/G/L2F.html</loc>
     </url>
+
     <url>
-        <loc>https://coldnova.xyz/g/l2f2.html</loc>
+        <loc>https://coldnova.xyz/G/L2F3.html</loc>
     </url>
+
     <url>
-        <loc>https://coldnova.xyz/g/l2f3.html</loc>
+        <loc>https://coldnova.xyz/G/L2f2.html</loc>
     </url>
+
     <url>
-        <loc>https://coldnova.xyz/g/leveldevil.html</loc>
+        <loc>https://coldnova.xyz/G/LevelDevil.html</loc>
     </url>
+
     <url>
-        <loc>https://coldnova.xyz/g/monkeymart.html</loc>
+        <loc>https://coldnova.xyz/G/MonkeyMart.html</loc>
     </url>
+
     <url>
-        <loc>https://coldnova.xyz/g/motoroadrash3d.html</loc>
+        <loc>https://coldnova.xyz/G/MotoRoadRash3D.html</loc>
     </url>
+
     <url>
-        <loc>https://coldnova.xyz/g/motox3m.html</loc>
+        <loc>https://coldnova.xyz/G/MotoX3M.html</loc>
     </url>
+
     <url>
-        <loc>https://coldnova.xyz/g/murder.html</loc>
+        <loc>https://coldnova.xyz/G/Murder.html</loc>
     </url>
+
     <url>
-        <loc>https://coldnova.xyz/g/ragdollhit.html</loc>
+        <loc>https://coldnova.xyz/G/RagdollHit.html</loc>
     </url>
+
     <url>
-        <loc>https://coldnova.xyz/g/retrobowl.html</loc>
+        <loc>https://coldnova.xyz/G/RetroBowl.html</loc>
     </url>
+
     <url>
-        <loc>https://coldnova.xyz/g/slope.html</loc>
+        <loc>https://coldnova.xyz/G/Slope.html</loc>
     </url>
+
     <url>
-        <loc>https://coldnova.xyz/g/slope2.html</loc>
+        <loc>https://coldnova.xyz/G/Slope2.html</loc>
     </url>
+
     <url>
-        <loc>https://coldnova.xyz/g/soccerrandom.html</loc>
+        <loc>https://coldnova.xyz/G/SoccerRandom.html</loc>
     </url>
+
     <url>
-        <loc>https://coldnova.xyz/g/stack.html</loc>
+        <loc>https://coldnova.xyz/G/Stack.html</loc>
     </url>
+
     <url>
-        <loc>https://coldnova.xyz/g/stacktris.html</loc>
+        <loc>https://coldnova.xyz/G/Stacktris.html</loc>
     </url>
+
     <url>
-        <loc>https://coldnova.xyz/g/subwaysurfers.html</loc>
+        <loc>https://coldnova.xyz/G/SubwaySurfers.html</loc>
     </url>
+
     <url>
-        <loc>https://coldnova.xyz/g/tabletennisworldtour.html</loc>
+        <loc>https://coldnova.xyz/G/TableTennisWorldTour.html</loc>
     </url>
+
     <url>
-        <loc>https://coldnova.xyz/g/tag.html</loc>
+        <loc>https://coldnova.xyz/G/Tag.html</loc>
     </url>
+
     <url>
-        <loc>https://coldnova.xyz/g/tag2.html</loc>
+        <loc>https://coldnova.xyz/G/Tag2.html</loc>
     </url>
+
     <url>
-        <loc>https://coldnova.xyz/g/zeepkistcrash.html</loc>
+        <loc>https://coldnova.xyz/G/ZeepkistCrash.html</loc>
+    </url>
+
+    <url>
+        <loc>https://coldnova.xyz/</loc>
     </url>
 </urlset>
