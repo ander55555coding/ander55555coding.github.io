@@ -207,8 +207,13 @@ main {
 }
 
 .hidtext {
-  display: none; /* Hides the element from the layout */
-  visibility: hidden; /* Ensures it doesn't affect layout */
-  height: 0; /* Prevents any height from being taken */
-  overflow: hidden; /* Hides any overflow */
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+    -webkit-clip-path: inset(0px 0px 99.9% 99.9%);
+    clip-path: inset(0px 0px 99.9% 99.9%);
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    border: 0;
 }

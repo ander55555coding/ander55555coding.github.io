@@ -53,6 +53,11 @@ fetch("/Games.json")
           elem6.innerHTML = gameObject.games[i].creator;
           elem4.appendChild(elem6); // Append creator name to the text container
 
+          let elem7 = document.createElement("h3");
+          elem7.className = "hidtext";
+          elem7.innerHTML = gameObject.games[i].name;
+          document.getElementById('jonwgjoigwr').appendChild(elem7);
+
           // Finally, append the anchor element to the "Boxes" container
           document.getElementById("Boxes").appendChild(elem1);
 
