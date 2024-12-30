@@ -93,6 +93,11 @@ main {
   margin-left: 20px;
   margin-top: 20px;
   border-radius: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.GameImgs:hover {
+  transform: scale(120%);
 }
 
 .gameframe {
