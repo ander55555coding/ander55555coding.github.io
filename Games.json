@@ -12,7 +12,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "../Game/1v1.lol"
+            "IframePath": "/files/1v1.lol"
         },
         {
             "name": "2 minute football",
@@ -25,7 +25,7 @@
                 "Sports",
                 "Arcade"
             ],
-            "IframePath": "../Game/2-minute-football"
+            "IframePath": "/files/2-minute-football"
         },
         {
             "name": "Among Us",
@@ -39,7 +39,7 @@
                 "Strategy",
                 "Social"
             ],
-            "IframePath": "../Game/amongus"
+            "IframePath": "/files/amongus"
         },
         {
             "name": "Boxing Random",
@@ -52,7 +52,7 @@
                 "Sports",
                 "Arcade"
             ],
-            "IframePath": "../Game/boxingrandom"
+            "IframePath": "/files/boxingrandom"
         },
         {
             "name": "Basketball Bros",
@@ -65,7 +65,7 @@
                 "Sports",
                 "Arcade"
             ],
-            "IframePath": "../Game/basketbros"
+            "IframePath": "/files/basketbros"
         },
         {
             "name": "Blumgi Slimes",
@@ -79,7 +79,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "../Game/blumgi-slime"
+            "IframePath": "/files/blumgi-slime"
         },
         {
             "name": "Clicker Heroes",
@@ -93,7 +93,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "../Game/ClickerHeroes"
+            "IframePath": "/files/ClickerHeroes"
         },
         {
             "name": "Color switch",
@@ -107,7 +107,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "../Game/ColorSwitch"
+            "IframePath": "/files/ColorSwitch"
         },
         {
             "name": "Cookie Clickers",
@@ -121,7 +121,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "../Game/CookieClicker"
+            "IframePath": "/files/CookieClicker"
         },
         {
             "name": "Coreball",
@@ -135,7 +135,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "../Game/Coreball"
+            "IframePath": "/files/Coreball"
         },
         {
             "name": "Dadish",
@@ -149,7 +149,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "../Game/Dadish"
+            "IframePath": "/files/Dadish"
         },
         {
             "name": "Dadish 3",
@@ -163,7 +163,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "../Game/Dadish3"
+            "IframePath": "/files/Dadish3"
         },
         {
             "name": "Descent",
@@ -177,7 +177,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "../Game/Descent"
+            "IframePath": "/files/Descent"
         },
         {
             "name": "Doodle Baseball",
@@ -191,7 +191,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "../Game/Doodle-Baseball"
+            "IframePath": "/files/Doodle-Baseball"
         },
         {
             "name": "Doodle Jump",
@@ -205,7 +205,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "../Game/doodlejump"
+            "IframePath": "/files/doodlejump"
         },
         {
             "name": "Drift boss",
@@ -219,7 +219,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "../Game/driftboss"
+            "IframePath": "/files/driftboss"
         },
         {
             "name": "Drive mad",
@@ -233,7 +233,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "../Game/Drive-mad"
+            "IframePath": "/files/Drive-mad"
         },
         {
             "name": "Fruit Ninja",
@@ -247,7 +247,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "../Game/FruitNinja"
+            "IframePath": "/files/FruitNinja"
         },
         {
             "name": "Geometry Dash",
@@ -261,7 +261,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "../Game/Geometry-dash"
+            "IframePath": "/files/Geometry-dash"
         },
         {
             "name": "Getaway Shootout",
@@ -275,7 +275,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "../Game/GetawayShootouts"
+            "IframePath": "/files/GetawayShootouts"
         },
         {
             "name": "Gobble",
@@ -289,7 +289,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "../Game/Gobble"
+            "IframePath": "/files/Gobble"
         },
         {
             "name": "Hextris",
@@ -303,7 +303,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "../Game/hextris"
+            "IframePath": "/files/hextris"
         },
         {
             "name": "Hover Racer Drive",
@@ -317,7 +317,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "../Game/hoverracerdrive"
+            "IframePath": "/files/hoverracerdrive"
         },
         {
             "name": "Jetpack Joyride",
@@ -331,7 +331,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "../Game/Jetpackjoyride"
+            "IframePath": "/files/Jetpackjoyride"
         },
         {
             "name": "L2F",
@@ -345,7 +345,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "../Game/L2f"
+            "IframePath": "/files/L2f"
         },
         {
             "name": "L2f2",
@@ -359,7 +359,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "../Game/L2f2"
+            "IframePath": "/files/L2f2"
         },
         {
             "name": "L2F3",
@@ -373,7 +373,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "../Game/L2f3"
+            "IframePath": "/files/L2f3"
         },
         {
             "name": "Level Devil",
@@ -387,7 +387,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "../Game/LevelDevil"
+            "IframePath": "/files/LevelDevil"
         },
         {
             "name": "Minecraft",
@@ -401,7 +401,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "../Game/Minecraft"
+            "IframePath": "/files/Minecraft"
         },
         {
             "name": "Monkey Mart",
@@ -415,7 +415,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "../Game/MonkeyMart"
+            "IframePath": "/files/MonkeyMart"
         },
         {
             "name": "MotoRoadRash3D",
@@ -429,7 +429,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "../Game/MotoRoadRash3D"
+            "IframePath": "/files/MotoRoadRash3D"
         },
         {
             "name": "MotoX3M",
@@ -443,7 +443,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "../Game/MotoX3m"
+            "IframePath": "/files/MotoX3m"
         },
         {
             "name": "Murder",
@@ -457,7 +457,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "../Game/Murder"
+            "IframePath": "/files/Murder"
         },
         {
             "name": "Ragdoll Hit",
@@ -471,7 +471,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "../Game/RagdollHit"
+            "IframePath": "/files/RagdollHit"
         },
         {
             "name": "RetroBowl",
@@ -485,7 +485,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "../Game/Retrobowl"
+            "IframePath": "/files/Retrobowl"
         },
         {
             "name": "Slice Master",
@@ -499,7 +499,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "../Game/Slice-Master"
+            "IframePath": "/files/Slice-Master"
         },
         {
             "name": "Slope",
@@ -513,7 +513,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "../Game/Slope"
+            "IframePath": "/files/Slope"
         },
         {
             "name": "Slope 2",
@@ -527,7 +527,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "../Game/Slope2"
+            "IframePath": "/files/Slope2"
         },
         {
             "name": "Soccer Random",
@@ -540,7 +540,7 @@
                 "Sports",
                 "Arcade"
             ],
-            "IframePath": "../Game/SoccerRandom"
+            "IframePath": "/files/SoccerRandom"
         },
         {
             "name": "Stack",
@@ -554,7 +554,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "../Game/Stack"
+            "IframePath": "/files/Stack"
         },
         {
             "name": "Stacktris",
@@ -568,7 +568,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "../Game/stacktris"
+            "IframePath": "/files/stacktris"
         },
         {
             "name": "Subway Surfers",
@@ -582,7 +582,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "../Game/SubwaySurfers"
+            "IframePath": "/files/SubwaySurfers"
         },
         {
             "name": "Table Tennis World Tour",
@@ -595,7 +595,7 @@
                 "Sports",
                 "Arcade"
             ],
-            "IframePath": "../Game/TableTennisWorldTour"
+            "IframePath": "/files/TableTennisWorldTour"
         },
         {
             "name": "Tag",
@@ -609,7 +609,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "../Game/Tag"
+            "IframePath": "/files/Tag"
         },
         {
             "name": "Tag 2",
@@ -623,7 +623,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "../Game/Tag2"
+            "IframePath": "/files/Tag2"
         },
         {
             "name": "Tiny-Fishing",
@@ -637,7 +637,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "../Game/Tiny-Fishing"
+            "IframePath": "/files/Tiny-Fishing"
         },
         {
             "name": "Zeepkist Crash",
@@ -651,7 +651,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "../Game/Zeepkist-Crash"
+            "IframePath": "/files/Zeepkist-Crash"
         }
     ]
 }
