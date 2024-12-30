@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?> 
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"> 
 <url>
   <loc>http://coldnova.xyz/g/1v1.lol</loc>
   <changefreq>monthly</changefreq>
@@ -172,5 +172,4 @@
   <loc>http://coldnova.xyz/</loc>
   <changefreq>monthly</changefreq>
 </url>
-</urlset>
 </urlset>
