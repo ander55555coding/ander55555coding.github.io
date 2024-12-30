@@ -38,11 +38,6 @@ gamesData.games.forEach(game => {
         // Write the new file
         fs.writeFileSync(newFilePath, newContent);
         console.log(`Created: ${newFileName}`);
-
-        // Add to sitemap if not already present
-        if (!sitemap.includes(game.name)) { // Check if game is already in sitemap
-            sitemap += `  <url><loc>https://coldnova.xyz/G/${newFileName}</loc></url>\n`; // Add new entry
-        }
     }
 });
 
