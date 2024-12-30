@@ -205,3 +205,10 @@ main {
   display: flex;
   flex-direction: column;
 }
+
+.hidtext {
+  display: none; /* Hides the element from the layout */
+  visibility: hidden; /* Ensures it doesn't affect layout */
+  height: 0; /* Prevents any height from being taken */
+  overflow: hidden; /* Hides any overflow */
+}
