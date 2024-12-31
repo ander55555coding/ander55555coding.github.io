@@ -3,175 +3,179 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-        <loc>http://coldnova.xyz/g/1v1.lol</loc>
+        <loc>https://coldnova.xyz/</loc>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://coldnova.xyz/legal/dmca</loc>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>http://coldnova.xyz/g/2minutefootball</loc>
+        <loc>https://coldnova.xyz/g/1v1.lol/</loc>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>http://coldnova.xyz/g/blumgislime.html</loc>
+        <loc>https://coldnova.xyz/g/2minutefootball/</loc>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>http://coldnova.xyz/g/doodlebaseball</loc>
+        <loc>https://coldnova.xyz/g/amoungus/</loc>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>http://coldnova.xyz/g/geometrydash</loc>
+        <loc>https://coldnova.xyz/g/basketballbros/</loc>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>http://coldnova.xyz/g/gobble</loc>
+        <loc>https://coldnova.xyz/g/blumgislimes/</loc>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>http://coldnova.xyz/g/hoverracerdrive</loc>
+        <loc>https://coldnova.xyz/g/clockerheroes/</loc>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>http://coldnova.xyz/g/leveldevil</loc>
+        <loc>https://coldnova.xyz/g/colorswitch/</loc>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>http://coldnova.xyz/g/motoroadrash3d</loc>
+        <loc>https://coldnova.xyz/g/cookieclickers/</loc>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>http://coldnova.xyz/g/ragdollhit</loc>
+        <loc>https://coldnova.xyz/g/dadish/</loc>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>http://coldnova.xyz/g/retrobowl</loc>
+        <loc>https://coldnova.xyz/g/dadish3/</loc>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>http://coldnova.xyz/g/slope</loc>
+        <loc>https://coldnova.xyz/g/descent/</loc>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>http://coldnova.xyz/g/stacktris</loc>
+        <loc>https://coldnova.xyz/g/doodlebaseball/</loc>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>http://coldnova.xyz/g/subwaysurfers</loc>
+        <loc>https://coldnova.xyz/g/doodlejump/</loc>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>http://coldnova.xyz/g/tag</loc>
+        <loc>https://coldnova.xyz/g/driftboss/</loc>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>http://coldnova.xyz/g/tag2</loc>
+        <loc>https://coldnova.xyz/g/drivemad/</loc>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>http://coldnova.xyz/g/zeepkistcrash</loc>
+        <loc>https://coldnova.xyz/g/fruitninja/</loc>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>http://coldnova.xyz/g/amongus</loc>
+        <loc>https://coldnova.xyz/g/geometrydash/</loc>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>http://coldnova.xyz/g/basketbros.html</loc>
+        <loc>https://coldnova.xyz/g/getawayshootout/</loc>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>http://coldnova.xyz/g/clickerheroes</loc>
+        <loc>https://coldnova.xyz/g/gobble/</loc>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>http://coldnova.xyz/g/colorswitch</loc>
+        <loc>https://coldnova.xyz/g/hextris/</loc>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>http://coldnova.xyz/g/CookieClicker.html</loc>
+        <loc>https://coldnova.xyz/g/hoverracedrive/</loc>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>http://coldnova.xyz/g/dadish</loc>
+        <loc>https://coldnova.xyz/g/jetpackjoyride/</loc>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>http://coldnova.xyz/g/dadish3</loc>
+        <loc>https://coldnova.xyz/g/l2f/</loc>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>http://coldnova.xyz/g/descent</loc>
+        <loc>https://coldnova.xyz/g/l2f2/</loc>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>http://coldnova.xyz/g/doodlejump</loc>
+        <loc>https://coldnova.xyz/g/l2f3/</loc>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>http://coldnova.xyz/g/driftboss</loc>
+        <loc>https://coldnova.xyz/g/leveldevil/</loc>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>http://coldnova.xyz/g/drivemad</loc>
+        <loc>https://coldnova.xyz/g/monkeymart/</loc>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>http://coldnova.xyz/g/fruitninja</loc>
+        <loc>https://coldnova.xyz/g/motoroadrash3d/</loc>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>http://coldnova.xyz/g/getawayShootouts.html</loc>
+        <loc>https://coldnova.xyz/g/motox3m/</loc>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>http://coldnova.xyz/g/hextris</loc>
+        <loc>https://coldnova.xyz/g/murder/</loc>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>http://coldnova.xyz/g/jetpackjoyride</loc>
+        <loc>https://coldnova.xyz/g/ragdollhit/</loc>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>http://coldnova.xyz/g/l2f</loc>
+        <loc>https://coldnova.xyz/g/retrobowl/</loc>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>http://coldnova.xyz/g/l2f2</loc>
+        <loc>https://coldnova.xyz/g/slope/</loc>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>http://coldnova.xyz/g/l2f3</loc>
+        <loc>https://coldnova.xyz/g/slope2/</loc>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>http://coldnova.xyz/g/monkeymart</loc>
+        <loc>https://coldnova.xyz/g/soccerrandom/</loc>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>http://coldnova.xyz/g/motox3m</loc>
+        <loc>https://coldnova.xyz/g/stack/</loc>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>http://coldnova.xyz/g/murder</loc>
+        <loc>https://coldnova.xyz/g/stacktris/</loc>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>http://coldnova.xyz/g/slope2</loc>
+        <loc>https://coldnova.xyz/g/subwaysurfers/</loc>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>http://coldnova.xyz/g/soccerrandom</loc>
+        <loc>https://coldnova.xyz/g/tabletennisworldtour/</loc>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>http://coldnova.xyz/g/stack</loc>
+        <loc>https://coldnova.xyz/g/tag/</loc>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>http://coldnova.xyz/g/tabletennisworldtour</loc>
+        <loc>https://coldnova.xyz/g/tag2/</loc>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>http://coldnova.xyz/</loc>
+        <loc>https://coldnova.xyz/g/zeepkistcrash/</loc>
         <changefreq>monthly</changefreq>
     </url>
 </urlset>
