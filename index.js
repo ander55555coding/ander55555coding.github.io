@@ -41,12 +41,6 @@ gamesData.games.forEach(game => {
     }
 });
 
-// Close the urlset tag
-sitemap += '</urlset>';
-
-// Write updated sitemap back to file
-fs.writeFileSync(sitemapPath, sitemap);
-
 // Clean up node_modules
 const dir = path.join(__dirname, 'node_modules');
 
