@@ -1,0 +1,11 @@
+User-agent: *
+
+Disallow: /Assets/
+Disallow: /Game/
+Disallow: /icons/
+Disallow: /Tools/
+Disallow: /index.html
+
+Sitemap: https://evaluating.tools/sitemap.xml
+
+Crawl-delay: 1 
