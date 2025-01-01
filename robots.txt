@@ -6,6 +6,6 @@ Disallow: /icons/
 Disallow: /Tools/
 Disallow: /index.html
 
-Sitemap: https://evaluating.tools/sitemap.xml
+Sitemap: https://coldnova.xyz/sitemap.xml
 
 Crawl-delay: 1 
