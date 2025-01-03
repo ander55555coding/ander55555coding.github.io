@@ -22,8 +22,7 @@
   align-items: center; /* Center items vertically */
   justify-content: space-between; /* Ensure space between text and image */
   background-color: #1e1e1e;
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 25px;
+  border-radius: 15px;
   padding: 10px;
   position: relative; /* Added to position child elements */
 }
