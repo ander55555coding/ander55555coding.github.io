@@ -57,7 +57,7 @@
         {
             "name": "Basketball Bros",
             "creator": "Mad Puffers",
-            "path": "/G/basketbros.html",
+            "path": "/G/BasketballBros.html",
             "image": "/assets/images/basketballstars.jpg",
             "Visible": true,
             "Hot": false,
@@ -68,7 +68,7 @@
             "IframePath": "/game/basketbros"
         },
         {
-            "name": "Blumgi Slimes",
+            "name": "Blumgi Slime",
             "creator": "Blumgi",
             "path": "/G/blumgislime.html",
             "image": "/assets/images/blumgi-slime.png",
@@ -93,7 +93,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "/game/ClickerHeroes"
+            "IframePath": "/game/Clicker-Heroes-main/"
         },
         {
             "name": "Color switch",
@@ -110,7 +110,7 @@
             "IframePath": "/game/ColorSwitch"
         },
         {
-            "name": "Cookie Clickers",
+            "name": "Cookie Clicker",
             "creator": "RedBit Games",
             "path": "/G/CookieClicker.html",
             "image": "/assets/images/CookieClicker.png",
@@ -121,7 +121,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "/game/CookieClicker"
+            "IframePath": "/game/Cookie-Clicker-main"
         },
         {
             "name": "Coreball",
@@ -198,14 +198,14 @@
             "creator": "Lima Sky",
             "path": "/G/doodlejump.html",
             "image": "/assets/images/Doodlejump.png",
-            "Visible": true,
+            "Visible": false,
             "Hot": false,
             "categories": [
                 "Action",
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "/game/doodlejump"
+            "IframePath": "/game/doodle-jump-main"
         },
         {
             "name": "Drift boss",
@@ -219,7 +219,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "/game/driftboss"
+            "IframePath": "/game/drift-boss-main"
         },
         {
             "name": "Drive mad",
@@ -233,7 +233,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "/game/Drive-mad"
+            "IframePath": "/game/Drive-mad-main"
         },
         {
             "name": "Fruit Ninja",
@@ -247,7 +247,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "/game/FruitNinja"
+            "IframePath": "/game/Fruit"
         },
         {
             "name": "Geometry Dash",
@@ -266,7 +266,7 @@
         {
             "name": "Getaway Shootout",
             "creator": "Neweich Games",
-            "path": "/G/GetawayShootouts.html",
+            "path": "/G/GetawayShootout.html",
             "image": "/assets/images/GetawayShootout.png",
             "Visible": true,
             "Hot": false,
@@ -303,7 +303,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "/game/hextris"
+            "IframePath": "/game/hextris-main"
         },
         {
             "name": "Hover Racer Drive",
@@ -317,7 +317,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "/game/hoverracerdrive"
+            "IframePath": "/game/hover-race-drive"
         },
         {
             "name": "Jetpack Joyride",
@@ -408,7 +408,7 @@
             "creator": "TinyDobbins",
             "path": "/G/MonkeyMart.html",
             "image": "/assets/images/MonkeyMart.png",
-            "Visible": true,
+            "Visible": false,
             "Hot": false,
             "categories": [
                 "Action",
@@ -429,7 +429,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "/game/MotoRoadRash3D"
+            "IframePath": "/game/Moto-Road-Rash-3D"
         },
         {
             "name": "MotoX3M",
@@ -443,7 +443,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "/game/MotoX3m"
+            "IframePath": "/game/MotoX3M-main"
         },
         {
             "name": "Murder",
@@ -471,21 +471,21 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "/gameRagdollHit"
+            "IframePath": "/game/Ragdoll-Hit"
         },
         {
             "name": "RetroBowl",
             "creator": "New Star Games",
             "path": "/G/Retrobowl.html",
             "image": "/assets/images/Retrobowl.png",
-            "Visible": true,
-            "Hot": true,
+            "Visible": false,
+            "Hot": false,
             "categories": [
                 "Action",
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "/game/Retrobowl"
+            "IframePath": "/game/Retro-bowl"
         },
         {
             "name": "Slice Master",
@@ -540,7 +540,7 @@
                 "Sports",
                 "Arcade"
             ],
-            "IframePath": "/game/SoccerRandom"
+            "IframePath": "/game/Soccer-Random"
         },
         {
             "name": "Stack",
@@ -554,7 +554,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "/game/Stack"
+            "IframePath": "/game/Stack-main"
         },
         {
             "name": "Stacktris",

@@ -30,7 +30,7 @@ gamesData.games.forEach(game => {
 
         // Replace keywords in the template
         let newContent = template
-            .replace(/GamePathInsert/g, game.IframePath.replace(/-/g, '')) // Remove hyphens from IframePath
+            .replace(/GamePathInsert/g, game.IframePath) // Remove hyphens from IframePath
             .replace(/GameImgInsert/g, game.image) // Update game image
             .replace(/GameNameInsert/g, game.name) // Update game name
             .replace(/CreatorNameInsert/g, game.creator); // Update creator name
