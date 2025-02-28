@@ -316,6 +316,20 @@
             "IframePath": "/game/Gobble"
         },
         {
+            "name": "Google Snake",
+            "creator": "Google",
+            "path": "/G/GoogleSnake.html",
+            "image": "/assets/images/Google-Snake.png",
+            "Visible": true,
+            "Hot": true,
+            "categories": [
+                "Action",
+                "Shooter",
+                "Multiplayer"
+            ],
+            "IframePath": "/game/Google-Snake/file"
+        },
+        {
             "name": "Hextris",
             "creator": "Hextris",
             "path": "/G/hextris.html",
