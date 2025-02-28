@@ -185,7 +185,7 @@
             "path": "/G/DoodleBaseball.html",
             "image": "/assets/images/doodle-Baseball.png",
             "Visible": true,
-            "Hot": true,
+            "Hot": false,
             "categories": [
                 "Action",
                 "Shooter",
@@ -234,6 +234,30 @@
                 "Multiplayer"
             ],
             "IframePath": "/game/Drive-mad-main"
+        },
+        {
+            "name": "Escape Road",
+            "creator": "AZ Games",
+            "path": "/G/EscapeRoad.html",
+            "image": "/assets/images/EscapeRoad.png",
+            "Visible": true,
+            "Hot": true,
+            "categories": [
+                "Action"
+            ],
+            "IframePath": "https://azgames.io/game/escape-road/"
+        },
+        {
+            "name": "Escape Road 2",
+            "creator": "AZ Games",
+            "path": "/G/EscapeRoad2.html",
+            "image": "/assets/images/EscapeRoad2.png",
+            "Visible": true,
+            "Hot": true,
+            "categories": [
+                "Action"
+            ],
+            "IframePath": "https://game.azgame.io/escape-road-2/"
         },
         {
             "name": "Fruit Ninja",
@@ -311,7 +335,7 @@
             "path": "/G/hoverracerdrive.html",
             "image": "/assets/images/hover-racer-drive.png",
             "Visible": true,
-            "Hot": true,
+            "Hot": false,
             "categories": [
                 "Action",
                 "Shooter",
