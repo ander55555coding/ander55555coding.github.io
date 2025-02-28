@@ -42,6 +42,30 @@
             "IframePath": "/game/amongus"
         },
         {
+            "name": "Bitlife",
+            "creator": "CandyWriter",
+            "path": "/G/Bitlife.html",
+            "image": "/assets/images/Bitlife.png",
+            "Visible": true,
+            "Hot": true,
+            "categories": [
+                "Arcade"
+            ],
+            "IframePath": "/game/Bitlife"
+        },
+        {
+            "name": "Block Blast",
+            "creator": "Hungry Studio",
+            "path": "/G/BlockBlast.html",
+            "image": "/assets/images/BlockBlast.png",
+            "Visible": true,
+            "Hot": true,
+            "categories": [
+                "Arcade"
+            ],
+            "IframePath": "/game/BlockBlast"
+        },
+        {
             "name": "Boxing Random",
             "creator": "RHM Interactive",
             "path": "/G/boxingrandom.html",
@@ -323,11 +347,9 @@
             "Visible": true,
             "Hot": true,
             "categories": [
-                "Action",
-                "Shooter",
-                "Multiplayer"
+                "puzzle"
             ],
-            "IframePath": "/game/Google-Snake/file"
+            "IframePath": "/game/snak.ee/google-snake-new"
         },
         {
             "name": "Hextris",
