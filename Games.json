@@ -538,14 +538,14 @@
             "creator": "New Star Games",
             "path": "/G/Retrobowl.html",
             "image": "/assets/images/Retrobowl.png",
-            "Visible": false,
-            "Hot": false,
+            "Visible": true,
+            "Hot": true,
             "categories": [
                 "Action",
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "/game/Retro-bowl"
+            "IframePath": "https://game316009.konggames.com/gamez/0031/6009/live/index.html"
         },
         {
             "name": "Slice Master",
