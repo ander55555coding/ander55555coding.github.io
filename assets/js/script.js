@@ -100,3 +100,20 @@ window.onload = function() {
     });
   });
 };
+
+const userId = localStorage.getItem('userId') || crypto.randomUUID();
+localStorage.setItem('userId', userId);
+
+async function logUser(status) {
+    await fetch('https://coldnova.xyz/api/log-user', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ userId, status })
+    });
+}
+
+// Log when the user opens the tab
+logUser('joined');
+
+// Log when the user leaves or closes the tab
+window.addEventListener('beforeunload', () => logUser('left'));
