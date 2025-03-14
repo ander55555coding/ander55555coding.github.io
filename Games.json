@@ -207,7 +207,7 @@
             "name": "Doodle Baseball",
             "creator": "Google",
             "path": "/G/DoodleBaseball.html",
-            "image": "/assets/Images/doodle-Baseball.png",
+            "image": "/assets/Images/Doodle-Baseball.png",
             "Visible": true,
             "Hot": false,
             "categories": [
@@ -301,7 +301,7 @@
             "name": "Geometry Dash",
             "creator": "RobTop Games",
             "path": "/G/Geometrydash.html",
-            "image": "/assets/Images/Geometry-dash.png",
+            "image": "/assets/Images/Geometry-Dash.png",
             "Visible": true,
             "Hot": true,
             "categories": [
