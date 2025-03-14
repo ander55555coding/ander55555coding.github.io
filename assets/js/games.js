@@ -32,7 +32,9 @@ fetch("/Games.json")
 
           // Create and append the image element
           let elem3 = document.createElement("img");
-          elem3.src = gameObject.games[i].image;
+          elem3.src = gameObject.games[i].image.startsWith('/') 
+          ? gameObject.games[i].image.substring(1) 
+          : gameObject.games[i].image      
           elem3.className = "Box-Image";
           elem2.appendChild(elem3); // Append image to the div
 

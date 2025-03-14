@@ -4,7 +4,7 @@
             "name": "1v1.lol",
             "creator": "JustPlay.LOL",
             "path": "/G/1v1.lol.html",
-            "image": "/assets/images/1v1lol.jpg",
+            "image": "/assets/Images/1v1lol.jpg",
             "Visible": true,
             "Hot": true,
             "categories": [
@@ -18,7 +18,7 @@
             "name": "2 minute football",
             "creator": "igamebank",
             "path": "/G/2minutefootball.html",
-            "image": "/assets/images/2-minute-football.png",
+            "image": "/assets/Images/2-minute-football.png",
             "Visible": true,
             "Hot": true,
             "categories": [
@@ -31,7 +31,7 @@
             "name": "Among Us",
             "creator": "InnerSloth",
             "path": "/G/amongus.html",
-            "image": "/assets/images/AmoungUs.png",
+            "image": "/assets/Images/AmoungUs.png",
             "Visible": true,
             "Hot": false,
             "categories": [
@@ -45,7 +45,7 @@
             "name": "Bitlife",
             "creator": "CandyWriter",
             "path": "/G/Bitlife.html",
-            "image": "/assets/images/Bitlife.png",
+            "image": "/assets/Images/Bitlife.png",
             "Visible": true,
             "Hot": true,
             "categories": [
@@ -57,7 +57,7 @@
             "name": "Block Blast",
             "creator": "Hungry Studio",
             "path": "/G/BlockBlast.html",
-            "image": "/assets/images/BlockBlast.png",
+            "image": "/assets/Images/BlockBlast.png",
             "Visible": true,
             "Hot": true,
             "categories": [
@@ -69,7 +69,7 @@
             "name": "Boxing Random",
             "creator": "RHM Interactive",
             "path": "/G/boxingrandom.html",
-            "image": "/assets/images/BoxingRandom.jfif",
+            "image": "/assets/Images/BoxingRandom.jfif",
             "Visible": false,
             "Hot": false,
             "categories": [
@@ -82,7 +82,7 @@
             "name": "Basketball Bros",
             "creator": "Mad Puffers",
             "path": "/G/BasketballBros.html",
-            "image": "/assets/images/basketballstars.jpg",
+            "image": "/assets/Images/basketballstars.jpg",
             "Visible": true,
             "Hot": false,
             "categories": [
@@ -95,7 +95,7 @@
             "name": "Blumgi Slime",
             "creator": "Blumgi",
             "path": "/G/blumgislime.html",
-            "image": "/assets/images/blumgi-slime.png",
+            "image": "/assets/Images/blumgi-slime.png",
             "Visible": true,
             "Hot": true,
             "categories": [
@@ -109,7 +109,7 @@
             "name": "Clicker Heroes",
             "creator": "Playsaurus",
             "path": "/G/ClickerHeroes.html",
-            "image": "/assets/images/clicker-heroes.png",
+            "image": "/assets/Images/clicker-heroes.png",
             "Visible": true,
             "Hot": false,
             "categories": [
@@ -123,7 +123,7 @@
             "name": "Color switch",
             "creator": "Fortafy Games",
             "path": "/G/ColorSwitch.html",
-            "image": "/assets/images/ColorSwitch.png",
+            "image": "/assets/Images/ColorSwitch.png",
             "Visible": true,
             "Hot": false,
             "categories": [
@@ -137,7 +137,7 @@
             "name": "Cookie Clicker",
             "creator": "RedBit Games",
             "path": "/G/CookieClicker.html",
-            "image": "/assets/images/CookieClicker.png",
+            "image": "/assets/Images/CookieClicker.png",
             "Visible": true,
             "Hot": false,
             "categories": [
@@ -151,7 +151,7 @@
             "name": "Coreball",
             "creator": "Game Distribution",
             "path": "/G/Coreball.html",
-            "image": "/assets/images/Coreball.png",
+            "image": "/assets/Images/Coreball.png",
             "Visible": false,
             "Hot": false,
             "categories": [
@@ -165,7 +165,7 @@
             "name": "Dadish",
             "creator": "Thomas K. Young",
             "path": "/G/Dadish.html",
-            "image": "/assets/images/Dadish.png",
+            "image": "/assets/Images/Dadish.png",
             "Visible": true,
             "Hot": false,
             "categories": [
@@ -179,7 +179,7 @@
             "name": "Dadish 3",
             "creator": "Thomas K. Young",
             "path": "/G/Dadish3.html",
-            "image": "/assets/images/Dadish3.png",
+            "image": "/assets/Images/Dadish3.png",
             "Visible": true,
             "Hot": false,
             "categories": [
@@ -193,7 +193,7 @@
             "name": "Descent",
             "creator": "Sakkat Studio",
             "path": "/G/Descent.html",
-            "image": "/assets/images/Descent.png",
+            "image": "/assets/Images/Descent.png",
             "Visible": true,
             "Hot": false,
             "categories": [
@@ -207,7 +207,7 @@
             "name": "Doodle Baseball",
             "creator": "Google",
             "path": "/G/DoodleBaseball.html",
-            "image": "/assets/images/doodle-Baseball.png",
+            "image": "/assets/Images/Doodle-Baseball.png",
             "Visible": true,
             "Hot": false,
             "categories": [
@@ -221,7 +221,7 @@
             "name": "Doodle Jump",
             "creator": "Lima Sky",
             "path": "/G/doodlejump.html",
-            "image": "/assets/images/Doodlejump.png",
+            "image": "/assets/Images/Doodlejump.png",
             "Visible": false,
             "Hot": false,
             "categories": [
@@ -235,7 +235,7 @@
             "name": "Drift boss",
             "creator": "MarketJS",
             "path": "/G/driftboss.html",
-            "image": "/assets/images/drift-boss.png",
+            "image": "/assets/Images/drift-boss.png",
             "Visible": true,
             "Hot": false,
             "categories": [
@@ -249,7 +249,7 @@
             "name": "Drive mad",
             "creator": "Fancade",
             "path": "/G/Drivemad.html",
-            "image": "/assets/images/DriveMad.jpg",
+            "image": "/assets/Images/DriveMad.jpg",
             "Visible": true,
             "Hot": false,
             "categories": [
@@ -263,7 +263,7 @@
             "name": "Escape Road",
             "creator": "AZ Games",
             "path": "/G/EscapeRoad.html",
-            "image": "/assets/images/EscapeRoad.png",
+            "image": "/assets/Images/EscapeRoad.png",
             "Visible": true,
             "Hot": true,
             "categories": [
@@ -275,7 +275,7 @@
             "name": "Escape Road 2",
             "creator": "AZ Games",
             "path": "/G/EscapeRoad2.html",
-            "image": "/assets/images/EscapeRoad2.png",
+            "image": "/assets/Images/EscapeRoad2.png",
             "Visible": true,
             "Hot": true,
             "categories": [
@@ -287,7 +287,7 @@
             "name": "Fruit Ninja",
             "creator": "Halfbrick Studios",
             "path": "/G/FruitNinja.html",
-            "image": "/assets/images/Fruit.jfif",
+            "image": "/assets/Images/Fruit.jfif",
             "Visible": true,
             "Hot": false,
             "categories": [
@@ -301,7 +301,7 @@
             "name": "Geometry Dash",
             "creator": "RobTop Games",
             "path": "/G/Geometrydash.html",
-            "image": "/assets/images/Geometry-dash.png",
+            "image": "/assets/Images/Geometry-Dash.png",
             "Visible": true,
             "Hot": true,
             "categories": [
@@ -315,7 +315,7 @@
             "name": "Getaway Shootout",
             "creator": "Neweich Games",
             "path": "/G/GetawayShootout.html",
-            "image": "/assets/images/GetawayShootout.png",
+            "image": "/assets/Images/GetawayShootout.png",
             "Visible": true,
             "Hot": false,
             "categories": [
@@ -329,7 +329,7 @@
             "name": "Gobble",
             "creator": "Fancade",
             "path": "/G/Gobble.html",
-            "image": "/assets/images/Gobble.png",
+            "image": "/assets/Images/Gobble.png",
             "Visible": true,
             "Hot": true,
             "categories": [
@@ -343,7 +343,7 @@
             "name": "Google Snake",
             "creator": "Google",
             "path": "/G/GoogleSnake.html",
-            "image": "/assets/images/Google-Snake.png",
+            "image": "/assets/Images/Google-Snake.png",
             "Visible": true,
             "Hot": true,
             "categories": [
@@ -355,7 +355,7 @@
             "name": "Hextris",
             "creator": "Hextris",
             "path": "/G/hextris.html",
-            "image": "/assets/images/hextris.png",
+            "image": "/assets/Images/hextris.png",
             "Visible": true,
             "Hot": false,
             "categories": [
@@ -369,7 +369,7 @@
             "name": "Hover Racer Drive",
             "creator": "Unknown",
             "path": "/G/hoverracerdrive.html",
-            "image": "/assets/images/hover-racer-drive.png",
+            "image": "/assets/Images/hover-racer-drive.png",
             "Visible": true,
             "Hot": false,
             "categories": [
@@ -383,7 +383,7 @@
             "name": "Jetpack Joyride",
             "creator": "Halfbrick Studios",
             "path": "/G/Jetpackjoyride.html",
-            "image": "/assets/images/Jetpack.png",
+            "image": "/assets/Images/Jetpack.png",
             "Visible": true,
             "Hot": false,
             "categories": [
@@ -397,7 +397,7 @@
             "name": "L2F",
             "creator": "MarketJS",
             "path": "/G/L2f.html",
-            "image": "/assets/images/L2F.png",
+            "image": "/assets/Images/L2F.png",
             "Visible": true,
             "Hot": false,
             "categories": [
@@ -411,7 +411,7 @@
             "name": "L2f2",
             "creator": "MarketJS",
             "path": "/G/L2f2.html",
-            "image": "/assets/images/L2F2.jpeg",
+            "image": "/assets/Images/L2F2.jpeg",
             "Visible": true,
             "Hot": false,
             "categories": [
@@ -425,7 +425,7 @@
             "name": "L2F3",
             "creator": "MarketJS",
             "path": "/G/L2f3.html",
-            "image": "/assets/images/L2F3.png",
+            "image": "/assets/Images/L2F3.png",
             "Visible": true,
             "Hot": false,
             "categories": [
@@ -439,7 +439,7 @@
             "name": "Level Devil",
             "creator": "Unept",
             "path": "/G/LevelDevil.html",
-            "image": "/assets/images/LevelDevil.png",
+            "image": "/assets/Images/LevelDevil.png",
             "Visible": true,
             "Hot": true,
             "categories": [
@@ -453,7 +453,7 @@
             "name": "Minecraft",
             "creator": "Mojang Studios",
             "path": "/G/Minecraft.html",
-            "image": "/assets/images/MinecraftLogo.png",
+            "image": "/assets/Images/MinecraftLogo.png",
             "Visible": false,
             "Hot": false,
             "categories": [
@@ -467,7 +467,7 @@
             "name": "Monkey Mart",
             "creator": "TinyDobbins",
             "path": "/G/MonkeyMart.html",
-            "image": "/assets/images/MonkeyMart.png",
+            "image": "/assets/Images/MonkeyMart.png",
             "Visible": false,
             "Hot": false,
             "categories": [
@@ -481,7 +481,7 @@
             "name": "MotoRoadRash3D",
             "creator": "Unknown",
             "path": "/G/MotoRoadRash3D.html",
-            "image": "/assets/images/MotoRoadRash3D.jfif",
+            "image": "/assets/Images/MotoRoadRash3D.jfif",
             "Visible": true,
             "Hot": true,
             "categories": [
@@ -495,7 +495,7 @@
             "name": "MotoX3M",
             "creator": "Mad Puffers",
             "path": "/G/MotoX3m.html",
-            "image": "/assets/images/moto-x3m.jpg",
+            "image": "/assets/Images/moto-x3m.jpg",
             "Visible": true,
             "Hot": false,
             "categories": [
@@ -509,7 +509,7 @@
             "name": "Murder",
             "creator": "Studio Seufz",
             "path": "/G/Murder.html",
-            "image": "/assets/images/Murder.png",
+            "image": "/assets/Images/Murder.png",
             "Visible": true,
             "Hot": false,
             "categories": [
@@ -523,7 +523,7 @@
             "name": "Ragdoll Hit",
             "creator": "Ericetto",
             "path": "/G/RagdollHit.html",
-            "image": "/assets/images/RagdollHit.png",
+            "image": "/assets/Images/RagdollHit.png",
             "Visible": true,
             "Hot": true,
             "categories": [
@@ -537,7 +537,7 @@
             "name": "RetroBowl",
             "creator": "New Star Games",
             "path": "/G/Retrobowl.html",
-            "image": "/assets/images/Retrobowl.png",
+            "image": "/assets/Images/Retrobowl.png",
             "Visible": true,
             "Hot": true,
             "categories": [
@@ -551,7 +551,7 @@
             "name": "Slice Master",
             "creator": "Unknown",
             "path": "/G/SliceMaster.html",
-            "image": "/assets/images/slice-master.png",
+            "image": "/assets/Images/slice-master.png",
             "Visible": false,
             "Hot": false,
             "categories": [
@@ -565,7 +565,7 @@
             "name": "Slope",
             "creator": "Y8",
             "path": "/G/Slope.html",
-            "image": "/assets/images/Slope.jfif",
+            "image": "/assets/Images/Slope.jfif",
             "Visible": true,
             "Hot": true,
             "categories": [
@@ -579,7 +579,7 @@
             "name": "Slope 2",
             "creator": "Y8",
             "path": "/G/Slope2.html",
-            "image": "/assets/images/Slope.jfif",
+            "image": "/assets/Images/Slope.jfif",
             "Visible": true,
             "Hot": false,
             "categories": [
@@ -593,7 +593,7 @@
             "name": "Soccer Random",
             "creator": "RHM Interactive",
             "path": "/G/SoccerRandom.html",
-            "image": "/assets/images/SoccerRandom.jfif",
+            "image": "/assets/Images/SoccerRandom.jfif",
             "Visible": true,
             "Hot": false,
             "categories": [
@@ -606,7 +606,7 @@
             "name": "Stack",
             "creator": "Ketchapp",
             "path": "/G/Stack.html",
-            "image": "/assets/images/stack.png",
+            "image": "/assets/Images/stack.png",
             "Visible": true,
             "Hot": false,
             "categories": [
@@ -620,7 +620,7 @@
             "name": "Stacktris",
             "creator": "Fancade",
             "path": "/G/stacktris.html",
-            "image": "/assets/images/stacktris.png",
+            "image": "/assets/Images/stacktris.png",
             "Visible": true,
             "Hot": true,
             "categories": [
@@ -634,7 +634,7 @@
             "name": "Subway Surfers",
             "creator": "Sybo Games",
             "path": "/G/SubwaySurfers.html",
-            "image": "/assets/images/SubwaySurfers.png",
+            "image": "/assets/Images/SubwaySurfers.png",
             "Visible": true,
             "Hot": true,
             "categories": [
@@ -648,7 +648,7 @@
             "name": "Table Tennis World Tour",
             "creator": "Yakuto",
             "path": "/G/TableTennisWorldTour.html",
-            "image": "/assets/images/TableTennisWorldTour.jfif",
+            "image": "/assets/Images/TableTennisWorldTour.jfif",
             "Visible": true,
             "Hot": false,
             "categories": [
@@ -661,7 +661,7 @@
             "name": "Tag",
             "creator": "JetGames",
             "path": "/G/Tag.html",
-            "image": "/assets/images/Tag.png",
+            "image": "/assets/Images/Tag.png",
             "Visible": true,
             "Hot": true,
             "categories": [
@@ -675,7 +675,7 @@
             "name": "Tag 2",
             "creator": "JetGames",
             "path": "/G/Tag2.html",
-            "image": "/assets/images/Tag2.png",
+            "image": "/assets/Images/Tag2.png",
             "Visible": true,
             "Hot": true,
             "categories": [
@@ -689,7 +689,7 @@
             "name": "Tiny-Fishing",
             "creator": "Mad Buffer",
             "path": "/G/TinyFishing.html",
-            "image": "/assets/images/Tiny-Fishing.png",
+            "image": "/assets/Images/Tiny-Fishing.png",
             "Visible": false,
             "Hot": false,
             "categories": [
@@ -703,7 +703,7 @@
             "name": "Zeepkist Crash",
             "creator": "Steelpan Interactive",
             "path": "/G/ZeepkistCrash.html",
-            "image": "/assets/images/Zeepkist-Crash.png",
+            "image": "/assets/Images/Zeepkist-Crash.png",
             "Visible": true,
             "Hot": true,
             "categories": [
