@@ -60,8 +60,32 @@ nav {
   margin-right: 20px;
 }
 
+svg {
+  transition: 0.5s transform ease-in-out;
+}
+
+svg:hover {
+  transform: scale(150%);
+}
+
 .navlogo {
   width: 60px;
+}
+
+.navlogo:hover {
+  animation-name: rotate;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes rotate {
+  0% {
+    rotate: 0;
+  }
+  100% {
+    transform: rotate(90deg);
+  }
 }
 
 .navlinks a{
