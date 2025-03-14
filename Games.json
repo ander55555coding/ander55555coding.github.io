@@ -103,7 +103,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "/game/blumgi-slime"
+            "IframePath": "/game/blumgislime"
         },
         {
             "name": "Clicker Heroes",
@@ -117,7 +117,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "/game/Clicker-Heroes-main/"
+            "IframePath": "/game/ClickerHeroesmain/"
         },
         {
             "name": "Color switch",
@@ -145,7 +145,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "/game/Cookie-Clicker-main"
+            "IframePath": "/game/CookieClickermain"
         },
         {
             "name": "Coreball",
@@ -215,7 +215,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "/game/Doodle-Baseball"
+            "IframePath": "/game/DoodleBaseball"
         },
         {
             "name": "Doodle Jump",
@@ -229,7 +229,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "/game/doodle-jump-main"
+            "IframePath": "/game/doodlejumpmain"
         },
         {
             "name": "Drift boss",
@@ -243,7 +243,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "/game/drift-boss-main"
+            "IframePath": "/game/driftbossmain"
         },
         {
             "name": "Drive mad",
@@ -257,7 +257,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "/game/Drive-mad-main"
+            "IframePath": "/game/Drivemadmain"
         },
         {
             "name": "Escape Road",
@@ -269,7 +269,7 @@
             "categories": [
                 "Action"
             ],
-            "IframePath": "https://azgames.io/game/escape-road/"
+            "IframePath": "https://azgames.io/game/escaperoad/"
         },
         {
             "name": "Escape Road 2",
@@ -281,7 +281,7 @@
             "categories": [
                 "Action"
             ],
-            "IframePath": "https://game.azgame.io/escape-road-2/"
+            "IframePath": "https://game.azgame.io/escaperoad2/"
         },
         {
             "name": "Fruit Ninja",
@@ -309,7 +309,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "/game/Geometry-dash"
+            "IframePath": "/game/Geometrydash"
         },
         {
             "name": "Getaway Shootout",
@@ -349,7 +349,7 @@
             "categories": [
                 "puzzle"
             ],
-            "IframePath": "/game/snak.ee/google-snake-new"
+            "IframePath": "/game/snak.ee/googlesnakenew"
         },
         {
             "name": "Hextris",
@@ -363,7 +363,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "/game/hextris-main"
+            "IframePath": "/game/hextrismain"
         },
         {
             "name": "Hover Racer Drive",
@@ -377,7 +377,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "/game/hover-race-drive"
+            "IframePath": "/game/hoverracedrive"
         },
         {
             "name": "Jetpack Joyride",
@@ -489,7 +489,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "/game/Moto-Road-Rash-3D"
+            "IframePath": "/game/MotoRoadRash3D"
         },
         {
             "name": "MotoX3M",
@@ -503,7 +503,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "/game/MotoX3M-main"
+            "IframePath": "/game/MotoX3Mmain"
         },
         {
             "name": "Murder",
@@ -531,7 +531,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "/game/Ragdoll-Hit"
+            "IframePath": "/game/RagdollHit"
         },
         {
             "name": "RetroBowl",
@@ -559,7 +559,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "/game/Slice-Master"
+            "IframePath": "/game/SliceMaster"
         },
         {
             "name": "Slope",
@@ -600,7 +600,7 @@
                 "Sports",
                 "Arcade"
             ],
-            "IframePath": "/game/Soccer-Random"
+            "IframePath": "/game/SoccerRandom"
         },
         {
             "name": "Stack",
@@ -614,7 +614,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "/game/Stack-main"
+            "IframePath": "/game/Stackmain"
         },
         {
             "name": "Stacktris",
@@ -697,7 +697,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "/game/Tiny-Fishing"
+            "IframePath": "/game/TinyFishing"
         },
         {
             "name": "Zeepkist Crash",
@@ -711,7 +711,7 @@
                 "Shooter",
                 "Multiplayer"
             ],
-            "IframePath": "/game/Zeepkist-Crash"
+            "IframePath": "/game/ZeepkistCrash"
         }
     ]
 }
