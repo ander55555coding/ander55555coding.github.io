@@ -1,6 +1,17 @@
 const fs = require('fs');
 const path = require('path');
 
+// Function to convert Games.json contents to lowercase and remove hyphens
+function convertGamesJsonToLowerCaseAndRemoveHyphens() {
+    const gamesFilePath = 'Games.json';
+    const gamesData = fs.readFileSync(gamesFilePath, 'utf8');
+    const modifiedData = gamesData.toLowerCase().replace(/-/g, ''); // Convert to lowercase and remove hyphens
+    fs.writeFileSync(gamesFilePath, modifiedData);
+}
+
+// Convert Games.json to lowercase and remove hyphens at the start
+convertGamesJsonToLowerCaseAndRemoveHyphens();
+
 // Load Games.json
 const gamesData = JSON.parse(fs.readFileSync('Games.json', 'utf8'));
 
@@ -51,3 +62,28 @@ fs.rm(dir, { recursive: true, force: true }, (err) => {
         console.log('node_modules deleted successfully.');
     }
 });
+
+function renameFilesToLowerCase(directory) {
+  fs.readdir(directory, (err, files) => {
+    if (err) {
+      console.error("Error reading directory:", err);
+      return;
+    }
+
+    files.forEach(file => {
+      const oldPath = path.join(directory, file);
+      const newName = file.toLowerCase().replace('-', '');
+      const newPath = path.join(directory, newName);
+
+      fs.rename(oldPath, newPath, err => {
+        if (err) {
+          console.error(`Error renaming file ${file}:`, err);
+        } else {
+          console.log(`Renamed ${file} to ${newName}`);
+        }
+      });
+    });
+  });
+}
+
+renameFilesToLowerCase("./assets/images");

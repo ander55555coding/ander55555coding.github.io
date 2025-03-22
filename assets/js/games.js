@@ -1,9 +1,9 @@
-fetch("/Games.json")
+fetch("/games.json")
   .then((response) => response.json())
   .then((gameObject) => {
     if (document.getElementById("gameid")) {
       for (i in gameObject.games) {
-        if (gameObject.games[i].Visible && document.getElementById("gameid")) {
+        if (gameObject.games[i].Visible = 1 && document.getElementById("gameid")) {
           let elem1 = document.createElement("a");
           elem1.alt = gameObject.games[i].name;
           elem1.href = gameObject.games[i].path;
@@ -20,7 +20,7 @@ fetch("/Games.json")
             "hasnt been loaded due to it not having needed bool"
           );
         }
-        if (gameObject.games[i].Hot) {
+        if (gameObject.games[i].Hot = 1) {
           // Create anchor element for the hot game link
           let elem1 = document.createElement("a");
           elem1.href = gameObject.games[i].path;
