@@ -1,19 +1,19 @@
 const fs = require('fs');
 const path = require('path');
 
-// Function to convert Games.json contents to lowercase and remove hyphens
+// Function to convert games.json contents to lowercase and remove hyphens
 function convertGamesJsonToLowerCaseAndRemoveHyphens() {
-    const gamesFilePath = 'Games.json';
+    const gamesFilePath = 'games.json';
     const gamesData = fs.readFileSync(gamesFilePath, 'utf8');
     const modifiedData = gamesData.toLowerCase().replace(/-/g, ''); // Convert to lowercase and remove hyphens
     fs.writeFileSync(gamesFilePath, modifiedData);
 }
 
-// Convert Games.json to lowercase and remove hyphens at the start
+// Convert games.json to lowercase and remove hyphens at the start
 convertGamesJsonToLowerCaseAndRemoveHyphens();
 
-// Load Games.json
-const gamesData = JSON.parse(fs.readFileSync('Games.json', 'utf8'));
+// Load games.json
+const gamesData = JSON.parse(fs.readFileSync('games.json', 'utf8'));
 
 // Load existing sitemap
 const sitemapPath = path.join(__dirname, 'sitemap.xml');
@@ -36,14 +36,16 @@ if (!fs.existsSync(outputDir)) {
 // Function to create HTML files from the template
 gamesData.games.forEach(game => {
     if (game.Visible) { // Only create files for visible games
-        const newFileName = `${game.name.replace(/\s+/g, '')}.html`; // Remove spaces and hyphens
+        const newFileName = `${game.name.toLowerCase().replace(/\s+/g, '')}.html`; // Remove spaces and hyphens
         const newFilePath = path.join(outputDir, newFileName);
 
         // Replace keywords in the template
+        const name =  game.name.toLowerCase().replace(/-/g, '');
+        const img = game.image.toLowerCase().replace(/-/g, '');
         let newContent = template
             .replace(/GamePathInsert/g, game.IframePath) // Remove hyphens from IframePath
-            .replace(/GameImgInsert/g, game.image) // Update game image
-            .replace(/GameNameInsert/g, game.name) // Update game name
+            .replace(/GameImgInsert/g, img) // Convert image to lowercase and remove hyphens
+            .replace(/GameNameInsert/g, name) // Update game name to lowercase and remove hyphens
             .replace(/CreatorNameInsert/g, game.creator); // Update creator name
 
         // Write the new file
@@ -76,13 +78,18 @@ function renameFilesToLowerCase(directory) {
       newName = newName.replace(/-/g, ''); // Remove hyphens
       const newPath = path.join(directory, newName);
 
-      fs.rename(oldPath, newPath, err => {
-        if (err) {
-          console.error(`Error renaming file ${file}:`, err);
-        } else {
-          console.log(`Renamed ${file} to ${newName}`);
-        }
-      });
+      // Check if the new name is different from the old name
+      if (oldPath !== newPath) {
+        fs.rename(oldPath, newPath, err => {
+          if (err) {
+            console.error(`Error renaming file ${file}:`, err);
+          } else {
+            console.log(`Renamed ${file} to ${newName}`);
+          }
+        });
+      } else {
+        console.log(`Skipped renaming ${file}, already in desired format.`);
+      }
     });
   });
 }
