@@ -72,7 +72,8 @@ function renameFilesToLowerCase(directory) {
 
     files.forEach(file => {
       const oldPath = path.join(directory, file);
-      const newName = file.toLowerCase().replace('-', '');
+      let newName = file.toLowerCase();
+      newName = newName.replace(/-/g, ''); // Remove hyphens
       const newPath = path.join(directory, newName);
 
       fs.rename(oldPath, newPath, err => {

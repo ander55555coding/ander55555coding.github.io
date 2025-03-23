@@ -11,6 +11,8 @@ fetch("/games.json")
           let elem2 = document.createElement("img");
           elem2.src = gameObject.games[i].image;
           elem2.alt = gameObject.games[i].name;
+          elem2.width = 150;
+          elem2.height = 150;
           elem2.className = "GameImgs";
           elem1.appendChild(elem2);
         } else {
@@ -34,7 +36,10 @@ fetch("/games.json")
           let elem3 = document.createElement("img");
           elem3.src = gameObject.games[i].image.startsWith('/') 
           ? gameObject.games[i].image.substring(1) 
-          : gameObject.games[i].image      
+          : gameObject.games[i].image
+          elem3.alt = gameObject.games[i].name;
+          elem3.width = 80;
+          elem3.height = 80;
           elem3.className = "Box-Image";
           elem2.appendChild(elem3); // Append image to the div
 
@@ -44,13 +49,13 @@ fetch("/games.json")
           elem2.appendChild(elem4); // Append text container to the div
 
           // Create and append the game name element
-          let elem5 = document.createElement("d2");
+          let elem5 = document.createElement("h3");
           elem5.className = "GameName";
           elem5.innerHTML = gameObject.games[i].name;
           elem4.appendChild(elem5); // Append game name to the text container
 
           // Create and append the author name element
-          let elem6 = document.createElement("d3");
+          let elem6 = document.createElement("h3");
           elem6.className = "AuthorName";
           elem6.innerHTML = gameObject.games[i].creator;
           elem4.appendChild(elem6); // Append creator name to the text container
