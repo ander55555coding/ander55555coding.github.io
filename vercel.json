@@ -28,14 +28,5 @@
       "dest": "/$1"
     }
   ],
-  "ignore": [
-    {
-        "src": "node_modules",
-        "dest": "/node_modules"
-    },
-    {
-        "src": "files",
-        "dest": "/files"
-    }
 ]
 } 
