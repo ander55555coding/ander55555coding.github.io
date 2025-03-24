@@ -1,27 +1,54 @@
 const fs = require('fs');
 const path = require('path');
 
+// Define the template variable
+const template = fs.readFileSync(path.join(__dirname, '..', 'indextemplate.html'), 'utf8');
+
 function main() {
-    const gamesData = JSON.parse(fs.readFileSync('games.json', 'utf8'));
+    let errors = 0;
+    let files = 0;
+
+    if (!fs.existsSync('g')) {
+        fs.mkdirSync('g');
+    }
+
+    const gamesData = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'games.json'), 'utf8'));
     gamesData.games.forEach(game => {
-      if (game.Visible) { // Only create files for visible games
-          const newFileName = `${game.name.toLowerCase().replace(/\s+/g, '')}.html`; // Remove spaces and hyphens
-          const newFilePath = path.join(outputDir, newFileName);
+        try {
+            if (game.visible === 1) { // Only create files for visible games
+
+                // Ensure iframepath is defined
+                if (!game.iframepath) {
+                    console.error(`Error: IframePath is undefined for game: ${game.name}`);
+                    return;
+                }
     
-          // Replace keywords in the template
-          const name =  game.name.toLowerCase().replace(/-/g, '');
-          const img = game.image.toLowerCase().replace(/-/g, '');
-          let newContent = template
-              .replace(/GamePathInsert/g, game.IframePath) // Remove hyphens from IframePath
-              .replace(/GameImgInsert/g, img) // Convert image to lowercase and remove hyphens
-              .replace(/GameNameInsert/g, name) // Update game name to lowercase and remove hyphens
-              .replace(/CreatorNameInsert/g, game.creator); // Update creator name
+                const newFileName = `${game.name.toLowerCase().replace(/\s+/g, '')}.html`; // Remove spaces and hyphens
+                const outputDir = 'g'; // Set outputDir to the 'g' directory
+                const newFilePath = path.join(outputDir, newFileName);
     
-          // Write the new file
-          fs.writeFileSync(newFilePath, newContent);
-          console.log(`Created: ${newFileName}`);
-      }
+                // Replace keywords in the template
+                const name = game.name.toLowerCase().replace(/-/g, '');
+                const img = game.image.toLowerCase().replace(/-/g, '');
+                let newContent = template
+                    .replace(/GamePathInsert/g, game.iframepath) // Use the defined iframepath
+                    .replace(/GameImgInsert/g, img) // Convert image to lowercase and remove hyphens
+                    .replace(/GameNameInsert/g, name) // Update game name to lowercase and remove hyphens
+                    .replace(/CreatorNameInsert/g, game.creator); // Update creator name
+    
+                // Write the new file
+                fs.writeFileSync(newFilePath, newContent);
+                files = files + 1;
+            }
+        } catch (error) {
+            console.error(`Error processing game: ${game.name}. Error: ${error.message}`); // Log the specific error
+            errors = errors + 1; // Increment errors count
+        }
     });    
+
+    console.log(`build completed with ${errors} error(s) and ${files} total.`); // Move this outside the forEach loop
 }
+
+main();
 
 module.exports = main;
