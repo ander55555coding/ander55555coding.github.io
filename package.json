@@ -1,8 +1,9 @@
 {
   "dependencies": {
+    "express": "^4.21.2",
     "fs": "^0.0.1-security",
     "path": "^0.12.7",
-    "vercel": "^41.4.1"
+    "readline": "^1.3.0"
   },
   "name": "coldnova",
   "version": "1.0.0",
@@ -10,9 +11,9 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "node main.js && git add . && git commit -m \"$(git diff --name-status HEAD | grep -E '^[AMDR]' | awk '{print $1, $2}' | tr '\n' ', ' | sed 's/, $//')\" && vercel",
+    "deploy": "git add . && git commit -m \"$(git diff --name-status HEAD | grep -E '^[AMDR]' | awk '{print $1, $2}' | tr '\n' ', ' | sed 's/, $//')\" && git push && vercel",
     "build": "node main.js",
-    "dev": "vc dev"
+    "dev": "vercel dev --debug"
   },
   "repository": {
     "type": "git",

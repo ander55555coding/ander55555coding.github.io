@@ -1,0 +1,14 @@
+curl -X POST http://localhost:3000/addGame \
+-H "Content-Type: application/json" \
+-d '{
+    "key": "a",
+    "dryRun": true,
+    "name": "new game",
+    "creator": "new creator",
+    "path": "/g/newgame.html",
+    "image": "/assets/images/newgame.png",
+    "visible": 1,
+    "hot": 1,
+    "categories": ["action"],
+    "iframepath": "/game/newgame"
+}'

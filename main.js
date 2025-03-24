@@ -13,7 +13,7 @@ function convertGamesJsonToLowerCaseAndRemoveHyphens() {
 convertGamesJsonToLowerCaseAndRemoveHyphens();
 
 // Load games.json
-const gamesData = JSON.parse(fs.readFileSync('games.json', 'utf8'));
+const gamesData = JSON.parse(fs.readFileSync('../games.json', 'utf8'));
 
 // Load existing sitemap
 const sitemapPath = path.join(__dirname, 'sitemap.xml');
