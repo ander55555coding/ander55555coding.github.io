@@ -162,6 +162,19 @@
             "iframepath": "/game/coreball"
         },
         {
+            "name": "chess",
+            "creator": "unknown",
+            "path": "/g/chess.html",
+            "image": "/assets/image/chess.png",
+            "visible": 1,
+            "hot": 0,
+            "categories": [
+                "strategy",
+                "multiplayer"
+            ],
+            "iframepath": "/game/chess"
+        },
+        {
             "name": "dadish",
             "creator": "thomas k. young",
             "path": "/g/dadish.html",

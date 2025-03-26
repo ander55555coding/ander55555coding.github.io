@@ -35,7 +35,7 @@ function main() {
     
                 // Replace keywords in the template
                 const name = game.name.replace(/-/g, '');
-                const img = game.image.replace(/-/g, '');
+                const img = game.image.replace(/-/g, '').toLowerCase();
                 let newContent = template
                     .replace(/GamePathInsert/g, game.iframepath) // Use the defined iframepath
                     .replace(/GameImgInsert/g, img) // Convert image to lowercase and remove hyphens

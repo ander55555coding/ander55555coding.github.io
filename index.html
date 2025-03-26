@@ -63,8 +63,8 @@
       </a>
 
       <div class="navlinks">
-        <a href="/"><img class="logolinks" src="/assets/Images/home.png" alt="Home"></a>
-        <a href="/legal/dmca.html"><img class="logolinks" src="/assets/Images/contract.png" alt="DMCA"></a>
+        <a href="/"><img class="logolinks" src="/assets/image/home.png" alt="Home"></a>
+        <a href="/legal/dmca.html"><img class="logolinks" src="/assets/image/contract.png" alt="DMCA"></a>
       </div>
     </nav>
 
@@ -98,13 +98,5 @@
 
     <script src="/assets/js/games.js"></script>
     <script src="/assets/js/script.js"></script>
-    <script>
-    if (document.cookie.split('; ').find(row => row.startsWith('shown=')) !== 'shown=true') {
-        window.location.href = '/disclaimer.html';
-    } else {
-        // Create the 'shown' cookie with a value of 'true'
-        document.cookie = "shown=true; path=/; max-age=31536000"; // Cookie expires in 1 year
-    }
-    </script>
   </body>
 </html>
