@@ -1,4 +1,4 @@
-const fs = require('fs');
+ const fs = require('fs');
 const path = require('path');
 
 // Define the template variable
@@ -22,17 +22,24 @@ function main() {
                     console.error(`Error: IframePath is undefined for game: ${game.name}`);
                     return;
                 }
+
+                // Ensure image is defined
+                if (!game.image) {
+                    console.error(`Error: Image is undefined for game: ${game.name}`);
+                    return;
+                }
     
                 const newFileName = `${game.name.toLowerCase().replace(/\s+/g, '')}.html`; // Remove spaces and hyphens
                 const outputDir = 'g'; // Set outputDir to the 'g' directory
                 const newFilePath = path.join(outputDir, newFileName);
     
                 // Replace keywords in the template
-                const name = game.name.toLowerCase().replace(/-/g, '');
-                const img = game.image.toLowerCase().replace(/-/g, '');
+                const name = game.name.replace(/-/g, '');
+                const img = game.image.replace(/-/g, '');
                 let newContent = template
                     .replace(/GamePathInsert/g, game.iframepath) // Use the defined iframepath
                     .replace(/GameImgInsert/g, img) // Convert image to lowercase and remove hyphens
+                    console.log(img)
                     .replace(/GameNameInsert/g, name) // Update game name to lowercase and remove hyphens
                     .replace(/CreatorNameInsert/g, game.creator); // Update creator name
     
