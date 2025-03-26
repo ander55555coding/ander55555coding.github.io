@@ -39,9 +39,9 @@ function main() {
                 let newContent = template
                     .replace(/GamePathInsert/g, game.iframepath) // Use the defined iframepath
                     .replace(/GameImgInsert/g, img) // Convert image to lowercase and remove hyphens
-                    console.log(img)
                     .replace(/GameNameInsert/g, name) // Update game name to lowercase and remove hyphens
                     .replace(/CreatorNameInsert/g, game.creator); // Update creator name
+                    console.log(img)
     
                 // Write the new file
                 fs.writeFileSync(newFilePath, newContent);
