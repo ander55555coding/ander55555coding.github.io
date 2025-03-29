@@ -34,13 +34,14 @@ function main() {
                 const newFilePath = path.join(outputDir, newFileName);
     
                 // Replace keywords in the template
-                const name = game.name.replace(/-/g, '');
+                const creator = game.creator.replace(/-/g, ' ');
+                const name = game.name.replace(/-/g, ' ');
                 const img = game.image.replace(/-/g, '').toLowerCase();
                 let newContent = template
                     .replace(/GamePathInsert/g, game.iframepath) // Use the defined iframepath
                     .replace(/GameImgInsert/g, img) // Convert image to lowercase and remove hyphens
                     .replace(/GameNameInsert/g, name) // Update game name to lowercase and remove hyphens
-                    .replace(/CreatorNameInsert/g, game.creator); // Update creator name
+                    .replace(/CreatorNameInsert/g, creator); // Update creator name
                     console.log(img)
     
                 // Write the new file
