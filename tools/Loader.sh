@@ -2,10 +2,13 @@
 echo "Installing npm packages..."
 npm install
 
-echo "Running first JavaScript file..."
+echo "Running JSON Converter..."
+node tools/ConvertJson.js
+
+echo "Running Game File Creator..."
 node tools/CreateGameFiles.js
 
-echo "Running second JavaScript file..."
+echo "Running Sitemap Creator"
 node tools/ConvertJson.js
 
 echo "Deleting node_modules..."

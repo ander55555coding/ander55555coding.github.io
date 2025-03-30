@@ -121,7 +121,7 @@ window.addEventListener('beforeunload', () => logUser('left'));
 
 
 if (document.cookie.split('; ').find(row => row.startsWith('shown=')) !== 'shown=true') {
-  window.location.href = '/disclaimer.html';
+  //window.location.href = '/disclaimer.html';
 } else {
   // Create the 'shown' cookie with a value of 'true'
   document.cookie = "shown=true; path=/; max-age=31536000"; // Cookie expires in 1 year

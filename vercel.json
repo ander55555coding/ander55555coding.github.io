@@ -2,15 +2,19 @@
   "version": 2,
   "builds": [
     {
-      "src": "main.js",
-      "use": "@vercel/node"
-    },
-    {
       "src": "*.html",
       "use": "@vercel/static"
     },
     {
-      "src": "*.{png,css,js,json}",
+      "src": "g/*.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "game/.*",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "*.{png,css,js,json, html}",
       "use": "@vercel/static"
     },
     {
@@ -22,6 +26,18 @@
     {
       "src": "/assets/(.*)",
       "dest": "/assets/$1"
+    },
+    {
+      "src": "/g/(.*)",
+      "dest": "/g/$1"
+    },
+    {
+      "src": "/game/.*",
+      "dest": "/game/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
     },
     {
       "src": "/(.*)",
