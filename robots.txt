@@ -1,10 +1,9 @@
 User-agent: *
 
-Disallow: /Assets/
-Disallow: /Game/
-Disallow: /icons/
-Disallow: /Tools/
-Disallow: /index.html
+Disallow: /assets/
+Disallow: /game/
+Disallow: /backend/
+Disallow: /functions/
 
 Sitemap: https://coldnova.xyz/sitemap.xml
 
