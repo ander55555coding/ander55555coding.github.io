@@ -42,7 +42,6 @@ function main() {
                     .replace(/GameImgInsert/g, img) // Convert image to lowercase and remove hyphens
                     .replace(/GameNameInsert/g, name) // Update game name to lowercase and remove hyphens
                     .replace(/CreatorNameInsert/g, creator) // Update creator name
-                    .replace(/no follow/g, "follow")
                     .replace(/no index/g, "index");
                     console.log(img)
     
