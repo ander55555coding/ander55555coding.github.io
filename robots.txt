@@ -7,4 +7,4 @@ Disallow: /functions/
 
 Sitemap: https://coldnova.xyz/sitemap.xml
 
-Crawl-delay: 1 
+Crawl-delay: 1

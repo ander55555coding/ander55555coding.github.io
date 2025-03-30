@@ -22,7 +22,7 @@
       "use": "@vercel/static"
     },
     {
-      "src": "*.{png,css,js,json}",
+      "src": "**/*.{png,css,js,json}",
       "use": "@vercel/static"
     },
     {
@@ -31,18 +31,6 @@
     }
   ],
   "routes": [
-    {
-      "src": "/assets/(.*)",
-      "dest": "/assets/$1"
-    },
-    {
-      "src": "/g/(.*)",
-      "dest": "/g/$1"
-    },
-    {
-      "src": "/game/(.*)",
-      "dest": "/game/$1"
-    },
     {
       "src": "/(.*)",
       "dest": "/$1"
