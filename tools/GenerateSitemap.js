@@ -41,7 +41,7 @@ function generateSitemap(files) {
     let rootIndexIncluded = false;
 
     files.forEach(file => {
-        let relativePath = path.relative(targetFolder, file).replace(/\\/g, "/");
+        let relativePath = path.relative("./", file);
 
         // Check for the root index.html explicitly
         if (relativePath === "index.html") {
