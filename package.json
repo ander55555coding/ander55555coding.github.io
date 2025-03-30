@@ -12,7 +12,7 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "node MainLoader.js && git add . && git commit -m '1' && git push",
+    "deploy": "node MainLoader.js && git add . && git commit -m '1' && git push && vercel --prod",
     "build": "node MainLoader.js",
     "dev": "vercel dev --debug"
   },
