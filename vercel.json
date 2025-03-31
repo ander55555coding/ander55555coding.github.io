@@ -2,15 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "**/*.html",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "sitemap.xml",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "robots.txt",
+      "src": "**/*.{html,xml,txt,png,css,js,json}",
       "use": "@vercel/static"
     },
     {
@@ -19,10 +11,6 @@
     },
     {
       "src": "game/**/*",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "**/*.{png,css,js,json}",
       "use": "@vercel/static"
     },
     {
