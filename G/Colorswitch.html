@@ -3,14 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="Keywords" content="1v1.lol, 1v1 lol" />
-    <title>color switch - Play Online For Free - ColdNova</title>
-
-    <link rel="preload" href="/assets/css/style.css" as="style">
-    <link rel="stylesheet" href="/assets/css/style.css" />
-    <link rel="stylesheet" href="/assets/css/Games.css" />
-
+    <meta
+      name="description"
+      content="Play free online games at ColdNova. Discover a variety of games and enjoy endless fun!"
+    />
+    <meta
+      name="keywords"
+      content="free online games, ColdNova, gaming, play games"
+    />
+    <meta name="author" content="ColdNova Team" />
     <meta name="robots" content="index, no follow">
+    <title>ColdNova - Free Online Games - Play Now!</title>
+
+    <link rel="preload" href="/assets/css/style.css" as="style" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
 
     <link rel="icon" type="image/png" href="/assets/favicon/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg" />
@@ -19,62 +25,51 @@
     <meta name="apple-mobile-web-app-title" content="ColdNova" />
     <link rel="manifest" href="/assets/favicon/site.webmanifest" />
 
-    <!-- Google Analytics (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-B347C2H08H"></script>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-B347C2H08H"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-B347C2H08H');
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-B347C2H08H");
     </script>
   </head>
   <body>
+    <div id="jonwgjoigwr">
+      <h2 class="hidtext">ColdNova</h2>
+      <h2 class="hidtext">Freeznova</h2>
+      <h2 class="hidtext">Crazy games</h2>
+      <h2 class="hidtext">ColdNova Games</h2>
+      <h2 class="hidtext">Freeznova Games</h2>
+    </div>
     <nav>
       <a href="/">
         <img src="/logo.png" alt="logo" class="navlogo" />
       </a>
 
       <div class="navlinks">
-        <a href="/" ><img src="/assets/image/home.png" alt="home"></a>
-        <a href="/legal/dmca.html" aria-label="home"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M320-240h320v-80H320v80Zm0-160h320v-80H320v80ZM240-80q-33 0-56.5-23.5T160-160v-640q0-33 23.5-56.5T240-880h320l240 240v480q0 33-23.5 56.5T720-80H240Zm280-520v-200H240v640h480v-440H520ZM240-800v200-200 640-640Z"/></svg></a>
+        <a href="/"><img class="logolinks" src="/assets/image/home.png" alt="Home"></a>
+        <a href="/legal/dmca.html"><img class="logolinks" src="/assets/image/contract.png" alt="DMCA"></a>
       </div>
     </nav>
-    
-    <div class="game">
-      <div id="game-area">
-        <embed id="iframe" src="/game/colorswitch">
-        <div id="mobile-back-button" draggable="true" onclick="openFullscreen()">
-          <i class="bi bi-x-circle-fill"></i>
-        </div>
-      </div>
-      
-      <div class="Tag">
-        <div class="tagcontainer">
-          <img src="/assets/image/colorswitch.png" class="TagImg" alt="Game Thumbnail">
-          <div class="TagTextContainer">
-            <h1 class="TagGameName">color switch</h1>
-            <h2 class="TagGameCreator">fortafy games</h2>
-          </div>
-        </div>
-        <a href="#" onclick="openFullscreen()" id="no-animation">
-          <img src="/assets/image/fullscreen.png" class="FullscreenImg" alt="Fullscreen Icon">
-        </a>
-      </div>
 
-    </div>
+    <main>
+      <div class="HotGames">
+        <h3 class="list-title">🔥Hot Games🔥</h3>
+        <div class="Boxes" id="Boxes"></div>
+      </div>
+      <h3 class="list-title">You may like</h3>
 
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6625598816974221"
-     crossorigin="anonymous"></script>
-    <!-- Games ad -->
-    <ins class="adsbygoogle"
-        style="display:block"
-        data-ad-client="ca-pub-6625598816974221"
-        data-ad-slot="7735730889"
-        data-ad-format="auto"
-        data-full-width-responsive="true"></ins>
-    <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
+      <div class="game-container">
+        <div class="game-select" id="gameid"></div>
+      </div>
+    </main>
 
     <footer>
       <div class="footerdescription">
@@ -92,6 +87,7 @@
       
     </footer>
 
-    <script defer src="/assets/js/script.js"></script>
+    <script src="/assets/js/games.js" defer></script>
+    <script src="/assets/js/script.js" async></script>
   </body>
 </html>
