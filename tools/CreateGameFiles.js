@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Define the template variable
-const template = fs.readFileSync(path.join(__dirname, '..', 'indextemplate.html'), 'utf8');
+const template = fs.readFileSync(path.join(__dirname, '..', 'gametemplate.html'), 'utf8');
 
 // Utility to delete all children of a directory
 function clearDirectory(dirPath) {

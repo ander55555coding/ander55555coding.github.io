@@ -1,3 +1,5 @@
+//archived
+
 fetch("/games.json")
   .then((response) => response.json())
   .then((gameObject) => {
