@@ -1,0 +1,13 @@
+Flashcards
+
+This file is a simple plain-text flashcards file created by Ander55555 on 2025-10-28.
+
+Format:
+Q: <question>
+A: <answer>
+
+Example:
+Q: What is the capital of France?
+A: Paris
+
+Add your flashcards by appending new Q/A pairs following the same format.
