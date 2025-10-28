@@ -16,8 +16,9 @@
     <meta name="robots" content="index, follow">
     <title>ColdNova - Free Online Games - Play Now!</title>
 
-    <link rel="preload" href="/assets/css/style.css" as="style" />
-    <link rel="stylesheet" href="/assets/css/style.css" />
+    <!-- Use relative paths so the CSS loads when the site is served from a subpath (e.g. GitHub Pages) -->
+    <link rel="preload" href="assets/css/style.css" as="style" onload="this.rel='stylesheet'"/>
+    <noscript><link rel="stylesheet" href="assets/css/style.css" /></noscript>
 
     <link rel="icon" type="image/png" href="/assets/favicon/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg" />
