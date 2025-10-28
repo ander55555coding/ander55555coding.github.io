@@ -25,16 +25,16 @@
       gtag("config", "G-B347C2H08H");
     </script>
 
-    <!-- 💎 Liquid Glass iOS-style Theme -->
+    <!-- 💎 Liquid Glass iOS-style Theme (Cooler + Transparent Version) -->
     <style>
       :root {
-        --glass-bg: rgba(255, 255, 255, 0.25);
-        --glass-border: rgba(255, 255, 255, 0.4);
-        --glass-shadow: rgba(0, 0, 0, 0.15);
+        --glass-bg: rgba(255, 255, 255, 0.15);
+        --glass-border: rgba(255, 255, 255, 0.25);
+        --glass-shadow: rgba(0, 0, 0, 0.25);
         --text-color: #fff;
-        --accent: #00aaff;
-        --backdrop-blur: 30px;
-        --gradient: linear-gradient(135deg, rgba(255,255,255,0.15), rgba(255,255,255,0.05));
+        --accent: #00d4ff;
+        --backdrop-blur: 35px;
+        --gradient: linear-gradient(145deg, rgba(255,255,255,0.08), rgba(255,255,255,0.02));
       }
 
       body {
@@ -42,7 +42,6 @@
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
         background: radial-gradient(circle at 30% 30%, #1e1e2f 0%, #0d0d12 100%);
         color: var(--text-color);
-        backdrop-filter: blur(20px);
         -webkit-font-smoothing: antialiased;
         text-shadow: 0 0 10px rgba(255,255,255,0.05);
       }
@@ -67,6 +66,7 @@
         background: var(--gradient);
         border-radius: 20px;
         animation: float 6s ease-in-out infinite;
+        box-shadow: inset 0 0 30px rgba(255,255,255,0.1), 0 0 20px rgba(0,200,255,0.2);
       }
 
       .list-title {
@@ -87,26 +87,42 @@
         width: 90%;
       }
 
+      /* === Cooler, More Transparent Buttons === */
       .SmallBox {
         display: flex;
         align-items: center;
         padding: 14px;
-        border-radius: 20px;
-        transition: transform 0.25s ease, box-shadow 0.25s ease;
+        border-radius: 22px;
+        transition: all 0.35s ease;
         background: var(--gradient);
         position: relative;
         overflow: hidden;
+        border: 1px solid rgba(255,255,255,0.15);
+        box-shadow:
+          inset 0 0 20px rgba(255,255,255,0.05),
+          0 8px 25px rgba(0,0,0,0.3),
+          0 0 25px rgba(0,200,255,0.1);
       }
 
       .SmallBox:hover {
-        transform: translateY(-4px) scale(1.02);
-        box-shadow: 0 12px 25px rgba(0,0,0,0.25);
+        transform: translateY(-5px) scale(1.05);
+        box-shadow:
+          0 12px 30px rgba(0,0,0,0.35),
+          0 0 30px rgba(0,220,255,0.35),
+          inset 0 0 25px rgba(255,255,255,0.1);
+        border-color: rgba(255,255,255,0.35);
+        background: linear-gradient(145deg, rgba(255,255,255,0.2), rgba(255,255,255,0.05));
       }
 
       .Box-Image {
         border-radius: 14px;
         margin-right: 12px;
         box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+        transition: transform 0.3s ease;
+      }
+
+      .SmallBox:hover .Box-Image {
+        transform: scale(1.1) rotate(2deg);
       }
 
       .text-container {
@@ -126,25 +142,18 @@
         color: rgba(255,255,255,0.7);
       }
 
-      @keyframes float {
-        0%, 100% { transform: translateY(0px); }
-        50% { transform: translateY(-6px); }
-      }
-
-      /* Glossy liquid shine */
+      /* Liquid shine line */
       .SmallBox::before {
         content: "";
         position: absolute;
         top: -50%;
-        left: -50%;
-        width: 200%;
+        left: -75%;
+        width: 250%;
         height: 200%;
-        background: linear-gradient(
-          120deg,
-          transparent 30%,
+        background: linear-gradient(120deg,
+          transparent 40%,
           rgba(255,255,255,0.3) 50%,
-          transparent 70%
-        );
+          transparent 60%);
         transform: rotate(25deg);
         opacity: 0;
         transition: opacity 0.5s;
@@ -158,6 +167,11 @@
       @keyframes shine {
         from { transform: translateX(-100%) rotate(25deg); }
         to { transform: translateX(100%) rotate(25deg); }
+      }
+
+      @keyframes float {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-6px); }
       }
 
       ::-webkit-scrollbar {
@@ -177,7 +191,6 @@
   </head>
 
   <body>
-
     <nav>Labyrinth Fun</nav>
 
     <main>
@@ -382,7 +395,7 @@
             <div class="text-container">
               <h3 class="GameName">zeepkist crash</h3>
               <h3 class="AuthorName">steelpan interactive</h3>
-
+          
         </div>
       </div>
     </main>
