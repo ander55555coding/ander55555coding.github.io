@@ -3,22 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Do free flash cards"
-    />
-    <meta
-      name="keywords"
-      content="Totaly math flash cards"
-    />
+    <meta name="description" content="Do free flash cards" />
+    <meta name="keywords" content="Totaly math flash cards" />
     <meta name="author" content="Math team" />
-
     <meta name="robots" content="index, follow">
     <title>Flash Math</title>
-
-    <!-- Use relative paths so the CSS loads when the site is served from a subpath (e.g. GitHub Pages) -->
-    <link rel="preload" href="assets/css/style.css" as="style" onload="this.rel='stylesheet'"/>
-    <noscript><link rel="stylesheet" href="assets/css/style.css" /></noscript>
 
     <link rel="icon" type="image/png" href="/assets/favicon/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg" />
@@ -28,20 +17,165 @@
     <link rel="manifest" href="/assets/favicon/site.webmanifest" />
 
     <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-B347C2H08H"
-    ></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-B347C2H08H"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
+      function gtag(){dataLayer.push(arguments);}
       gtag("js", new Date());
-
       gtag("config", "G-B347C2H08H");
     </script>
+
+    <!-- 💎 Liquid Glass iOS-style Theme -->
+    <style>
+      :root {
+        --glass-bg: rgba(255, 255, 255, 0.25);
+        --glass-border: rgba(255, 255, 255, 0.4);
+        --glass-shadow: rgba(0, 0, 0, 0.15);
+        --text-color: #fff;
+        --accent: #00aaff;
+        --backdrop-blur: 30px;
+        --gradient: linear-gradient(135deg, rgba(255,255,255,0.15), rgba(255,255,255,0.05));
+      }
+
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        background: radial-gradient(circle at 30% 30%, #1e1e2f 0%, #0d0d12 100%);
+        color: var(--text-color);
+        backdrop-filter: blur(20px);
+        -webkit-font-smoothing: antialiased;
+        text-shadow: 0 0 10px rgba(255,255,255,0.05);
+      }
+
+      nav, main, .SmallBox, .Boxes {
+        background: var(--glass-bg);
+        backdrop-filter: blur(var(--backdrop-blur));
+        -webkit-backdrop-filter: blur(var(--backdrop-blur));
+        border: 1px solid var(--glass-border);
+        border-radius: 16px;
+        box-shadow: 0 8px 24px var(--glass-shadow);
+      }
+
+      nav {
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 16px 0;
+        margin: 20px auto;
+        width: 90%;
+        color: white;
+        font-weight: 500;
+        background: var(--gradient);
+        border-radius: 20px;
+        animation: float 6s ease-in-out infinite;
+      }
+
+      .list-title {
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 20px;
+        text-shadow: 0 0 15px rgba(255,255,255,0.1);
+        animation: float 6s ease-in-out infinite;
+      }
+
+      .Boxes {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 20px;
+        padding: 20px;
+        margin: 0 auto;
+        width: 90%;
+      }
+
+      .SmallBox {
+        display: flex;
+        align-items: center;
+        padding: 14px;
+        border-radius: 20px;
+        transition: transform 0.25s ease, box-shadow 0.25s ease;
+        background: var(--gradient);
+        position: relative;
+        overflow: hidden;
+      }
+
+      .SmallBox:hover {
+        transform: translateY(-4px) scale(1.02);
+        box-shadow: 0 12px 25px rgba(0,0,0,0.25);
+      }
+
+      .Box-Image {
+        border-radius: 14px;
+        margin-right: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+      }
+
+      .text-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .GameName {
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: #fff;
+      }
+
+      .AuthorName {
+        font-size: 0.85rem;
+        color: rgba(255,255,255,0.7);
+      }
+
+      @keyframes float {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-6px); }
+      }
+
+      /* Glossy liquid shine */
+      .SmallBox::before {
+        content: "";
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+        background: linear-gradient(
+          120deg,
+          transparent 30%,
+          rgba(255,255,255,0.3) 50%,
+          transparent 70%
+        );
+        transform: rotate(25deg);
+        opacity: 0;
+        transition: opacity 0.5s;
+      }
+
+      .SmallBox:hover::before {
+        opacity: 1;
+        animation: shine 1.5s forwards;
+      }
+
+      @keyframes shine {
+        from { transform: translateX(-100%) rotate(25deg); }
+        to { transform: translateX(100%) rotate(25deg); }
+      }
+
+      ::-webkit-scrollbar {
+        width: 10px;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background: rgba(255,255,255,0.15);
+        border-radius: 10px;
+      }
+
+      @media (max-width: 600px) {
+        nav { font-size: 1.2rem; }
+        .Boxes { gap: 12px; }
+      }
+    </style>
   </head>
+
   <body>
     <div id="jonwgjoigwr">
       <h2 class="hidtext">ColdNova</h2>
@@ -50,28 +184,26 @@
       <h2 class="hidtext">ColdNova Games</h2>
       <h2 class="hidtext">Freeznova Games</h2>
     </div>
-    <nav>
 
-    
-      Labyrinth Fun
-      
-    </nav>
+    <nav>Labyrinth Fun</nav>
 
     <main>
       <div class="HotGames">
         <h3 class="list-title">🔥Games🔥</h3>
         <div class="Boxes" id="Boxes">
-        <a href="https://ander55555.github.io/ColdNova/g/1v1.lol.html">
-          <div class="SmallBox">
-            <img src="assets/image/1v1lol.png" alt="1v1.lol" width="80" height="80" class="Box-Image" />
-            <div class="text-container">
-              <h3 class="GameName">1v1.lol</h3>
-              <h3 class="AuthorName">justplay.lol</h3>
+
+          <!-- Example Game Box -->
+          <a href="https://ander55555.github.io/ColdNova/g/1v1.lol.html">
+            <div class="SmallBox">
+              <img src="assets/image/1v1lol.png" alt="1v1.lol" width="80" height="80" class="Box-Image" />
+              <div class="text-container">
+                <h3 class="GameName">1v1.lol</h3>
+                <h3 class="AuthorName">justplay.lol</h3>
+              </div>
             </div>
-          </div>
-        </a>
-      
-        <a href="https://ander55555.github.io/ColdNova/g/2minutefootball.html">
+          </a>
+
+          <a href="https://ander55555.github.io/ColdNova/g/2minutefootball.html">
           <div class="SmallBox">
             <img src="assets/image/2minutefootball.png" alt="2 minute football" width="80" height="80" class="Box-Image" />
             <div class="text-container">
@@ -257,7 +389,10 @@
             <div class="text-container">
               <h3 class="GameName">zeepkist crash</h3>
               <h3 class="AuthorName">steelpan interactive</h3>
+
+        </div>
       </div>
+    </main>
 
     <script src="/assets/js/script.js" async></script>
   </body>
